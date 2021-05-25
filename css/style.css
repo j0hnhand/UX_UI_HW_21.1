@@ -40,26 +40,40 @@
     color: rgba(255,255,255,1) !important;
 }
 
+/* Steps ====================== */
+
+.step1 {
+    padding: 100px;
+}
+.step2 {
+    padding: 100px;
+    background-color: rgb(45, 72, 83);
+    color: white;
+}
+.step3 {
+    padding: 100px;
+}
+.step4 {
+    padding: 100px;
+    background-color: rgb(168, 145, 102);
+    color: white;
+}
+.gettingStarted img {
+    border-radius: 10px;
+}
+
 /* Cards ====================== */
-.cardBox {
-    padding: 50px;
-    margin: 0px 100px 0px 100px;
+.sources {
+    min-height: 50vh;
 }
-.cardContainer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.btn {
-    display: flex;
-    justify-content: center !important;
-    max-width: 200px;
-    vertical-align: middle;
+.sourcesBox {
+    padding: 100px;
 }
 
 /* Newsletter ==================== */
 .news {
     padding: 50px;
-    background-color: rgb(35, 41, 53)
+    background-color: rgb(35, 41, 53);
 }
 .newsContainer {
     padding: 30px;
